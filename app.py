@@ -11,7 +11,7 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    return a * b  # BUG: should be a / b
+    return a / b
 
 if __name__ == "__main__":
     print(f"10 / 2 = {divide(10, 2)}")  # Should print 5, prints 20
